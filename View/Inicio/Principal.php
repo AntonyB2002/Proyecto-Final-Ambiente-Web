@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>ShareFlix Webpage</title>
+    <title>ShareFlix Web</title>
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/fontawesome-all.min.css" rel="stylesheet">
@@ -15,7 +15,6 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
 
-    <!-- Navigation -->
     <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
         <div class="container">
 
@@ -45,7 +44,6 @@
         </div>
     </nav>
 
-    <!-- Header -->
     <header id="header" class="header">
         <div class="container">
             <div class="row">
@@ -56,31 +54,28 @@
                         <p class="p-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim, neque
                             ut vanic barem ultrices sollicitudin</p>
                         <a class="btn-solid-lg" href="sign-up.html">Sign up for free</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
+                    </div>
+                </div>
                 <div class="col-lg-6">
                     <div class="image-container">
                         <img class="img-fluid" src="../images/header-illustration.svg" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
 
-    <!-- Features -->
     <div id="features" class="cards-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Ioniq CRM application is packed with <span>awesome features</span></h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12">
 
-                    <!-- Card -->
                     <div class="card">
                         <div class="card-icon">
                             <span class="fas fa-headphones-alt"></span>
@@ -91,9 +86,7 @@
                                 pharetra ante at nunc elementum</p>
                         </div>
                     </div>
-                    <!-- end of card -->
 
-                    <!-- Card -->
                     <div class="card">
                         <div class="card-icon green">
                             <span class="far fa-clipboard"></span>
@@ -104,9 +97,7 @@
                                 scelerisque. Nunc placerat justo sem</p>
                         </div>
                     </div>
-                    <!-- end of card -->
 
-                    <!-- Card -->
                     <div class="card">
                         <div class="card-icon blue">
                             <span class="far fa-comments"></span>
@@ -117,16 +108,12 @@
                                 vehicula neque sodales verum</p>
                         </div>
                     </div>
-                    <!-- end of card -->
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
-    <!-- end of services -->
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <!-- Details 1 -->
     <div id="details" class="basic-1 bg-gray">
         <div class="container">
             <div class="row">
@@ -136,20 +123,17 @@
                         <p>Vestibulum ullamcorper augue ex, imperdiet tincidunt tellus bibendum inconsectetur rutrum
                             mauris orbi scelerisque cursus augue, ac suscipit sem mattis at ut suscipit</p>
                         <a class="btn-solid-reg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Modal</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
+                    </div>
+                </div>
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
                         <img class="img-fluid" src="../images/details-1.svg" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of details 1 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <!-- Details Modal -->
     <div id="staticBackdrop" class="modal fade" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -158,8 +142,8 @@
                     <div class="col-lg-8">
                         <div class="image-container">
                             <img class="img-fluid" src="../images/details-modal.jpg" alt="alternative">
-                        </div> <!-- end of image-container -->
-                    </div> <!-- end of col -->
+                        </div>
+                    </div>
                     <div class="col-lg-4">
                         <h3>Goals Setting</h3>
                         <hr>
@@ -192,23 +176,20 @@
                         </ul>
                         <a id="modalCtaBtn" class="btn-solid-reg" href="#your-link">Details</a>
                         <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of modal-content -->
-        </div> <!-- end of modal-dialog -->
-    </div> <!-- end of modal -->
-    <!-- end of details modal -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <!-- Details 2 -->
     <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-container">
                         <img class="img-fluid" src="../images/details-2.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
+                    </div>
+                </div>
                 <div class="col-lg-6">
                     <div class="text-container">
                         <h2>Anyone can start using the app with minimum skills</h2>
@@ -228,31 +209,26 @@
                                 <div class="flex-grow-1">Quisque blandit pulvinar metus, eu sta malesuada</div>
                             </li>
                         </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of details 2 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <!-- Testimonials -->
     <div class="slider-1 bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Few words from our clients</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12">
 
-                    <!-- Card Slider -->
                     <div class="slider-container">
                         <div class="swiper-container card-slider">
                             <div class="swiper-wrapper">
 
-                                <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
                                         <img class="card-image" src="../images/testimonial-1.jpg" alt="alternative">
@@ -263,10 +239,8 @@
                                             <p class="testimonial-author">Jude Thorn - Designer</p>
                                         </div>
                                     </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                                </div>
 
-                                <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
                                         <img class="card-image" src="../images/testimonial-2.jpg" alt="alternative">
@@ -277,10 +251,8 @@
                                             <p class="testimonial-author">Roy Smith - Developer</p>
                                         </div>
                                     </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                                </div>
 
-                                <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
                                         <img class="card-image" src="../images/testimonial-3.jpg" alt="alternative">
@@ -291,10 +263,8 @@
                                             <p class="testimonial-author">Marsha Singer - Marketer</p>
                                         </div>
                                     </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                                </div>
 
-                                <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
                                         <img class="card-image" src="../images/testimonial-4.jpg" alt="alternative">
@@ -305,10 +275,8 @@
                                             <p class="testimonial-author">Tim Shaw - Designer</p>
                                         </div>
                                     </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                                </div>
 
-                                <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
                                         <img class="card-image" src="../images/testimonial-5.jpg" alt="alternative">
@@ -319,10 +287,8 @@
                                             <p class="testimonial-author">Lindsay Spice - Marketer</p>
                                         </div>
                                     </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                                </div>
 
-                                <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
                                         <img class="card-image" src="../images/testimonial-6.jpg" alt="alternative">
@@ -333,39 +299,31 @@
                                             <p class="testimonial-author">Ann Blake - Developer</p>
                                         </div>
                                     </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                                </div>
 
-                            </div> <!-- end of swiper-wrapper -->
+                            </div>
 
-                            <!-- Add Arrows -->
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
 
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of card slider -->
+                        </div>
+                    </div>
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-1 -->
-    <!-- end of testimonials -->
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <!-- Pricing -->
     <div id="pricing" class="cards-2 bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Free forever tier and 2 pro plans</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12">
 
-                    <!-- Card -->
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title">
@@ -386,9 +344,7 @@
                             <a href="sign-up.html" class="btn-solid-reg">Sign up</a>
                         </div>
                     </div>
-                    <!-- end of card -->
 
-                    <!-- Card -->
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title">
@@ -409,9 +365,7 @@
                             <a href="sign-up.html" class="btn-solid-reg">Sign up</a>
                         </div>
                     </div>
-                    <!-- end of card -->
 
-                    <!-- Card -->
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title">
@@ -432,36 +386,31 @@
                             <a href="sign-up.html" class="btn-solid-reg">Sign up</a>
                         </div>
                     </div>
-                    <!-- end of card -->
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-2 -->
-    <!-- end of pricing -->
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Copyright -->
     <div class="copyright">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <p class="p-small">Copyright © <a href="#your-link">Grupo #3</a></p>
-                </div> <!-- end of col -->
+                </div>
 
                 <div class="col-lg-6">
                     <p class="p-small">Realizado por <a href="https://themewagon.com/">Grupo #3</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright -->
-    <!-- end of copyright -->
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/purecounter.min.js"></script>
+    <script src="../js/replaceme.min.js"></script>
 
-    <!-- Scripts -->
-    <script src="../js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="../js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="../js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-    <script src="../js/replaceme.min.js"></script> <!-- ReplaceMe for rotating text -->
 </body>
 
 </html>

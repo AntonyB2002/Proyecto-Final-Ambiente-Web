@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Sign Up - ShareFlix</title>
+    <title>ShareFlix Web</title>
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/fontawesome-all.min.css" rel="stylesheet">
@@ -41,14 +41,14 @@
 
                         <form>
                             <div class="mb-4 form-floating">
-                                <input type="email" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com" autocomplete="username">
-                                <label for="floatingInput">Correo Electrónico</label>
-                            </div>
-                            <div class="mb-4 form-floating">
                                 <input type="text" class="form-control" id="floatingInput2" placeholder="Your name"
                                     autocomplete="given-name">
                                 <label for="floatingInput2">Nombre</label>
+                            </div>
+                            <div class="mb-4 form-floating">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com" autocomplete="username">
+                                <label for="floatingInput">Correo Electrónico</label>
                             </div>
                             <div class="mb-4 form-floating">
                                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
@@ -59,7 +59,7 @@
                         </form>
 
                         <p class="mb-4">Ya tienes una cuenta?
-                            <a class="blue" href="../Inicio/log-in.php">Inicia Sesion</a>
+                            <a class="blue" href="../Inicio/IniciarSesion.php">Inicia Sesion</a>
                         </p>
 
                     </div>

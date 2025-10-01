@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Log In - ShareFlix</title>
+    <title>ShareFlix Web</title>
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/fontawesome-all.min.css" rel="stylesheet">
@@ -53,6 +53,9 @@
                                 <input type="password" class="form-control" id="floatingPassword" name="contrasena"
                                     placeholder="Password" autocomplete="current-password">
                                 <label for="floatingPassword">Contraseña</label>
+                                <a href="RecuperarAcceso.php">
+                                    <small>Olvidó su contraseña?</small>
+                                </a>
                             </div>
                             <button class="form-control-submit-button" id="btnIniciarSesion" name="btnIniciarSesion"
                                 type="submit">
@@ -61,7 +64,7 @@
                         </form>
 
                         <p class="mb-4">Aun no tienes una cuenta? Por favor ve a <a class="blue"
-                                href="../Inicio/sign-up.php">Registrarse</a></p>
+                                href="../Inicio/Registro.php">Registrarse</a></p>
 
                     </div>
                 </div>
